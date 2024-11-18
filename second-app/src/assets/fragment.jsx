@@ -1,13 +1,14 @@
 import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css"
 function FragMent(){
-    return <>
-     <h1>Fragment Test</h1>
-     <ul class="list-group">
-  <li class="list-group-item active" aria-current="true">An active item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
-</ul>
-    </>
+    let ItemList=[1,2,3,4,5,6,7];
+    
+    return( <>
+        <h1>Map Test</h1>
+        <ul className="list-group">
+        {ItemList.length===0?<h2>Still Array Empty</h2>:null}   
+        {
+         ItemList.map((item)=>(<li key={item} className="list-group-item">{item}</li>))}
+   </ul>
+       </>);
 } export default FragMent
