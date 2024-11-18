@@ -2,12 +2,12 @@ import { Fragment, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import FrangMent from './assets/frangment'
+import FragMent from './assets/fragment'
 
 function App() {
  
 
-  return <FrangMent/>
+  return <FragMent/>
 }
 
 export default App

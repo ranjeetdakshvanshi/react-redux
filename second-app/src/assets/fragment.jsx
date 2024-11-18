@@ -1,7 +1,7 @@
 import React from "react"
-function FrangMent(){
+function FragMent(){
     return <>
-     <h1>Frangment Test</h1>
+     <h1>Fragment Test</h1>
      <ul class="list-group">
   <li class="list-group-item active" aria-current="true">An active item</li>
   <li class="list-group-item">A second item</li>
@@ -10,4 +10,4 @@ function FrangMent(){
   <li class="list-group-item">And a fifth one</li>
 </ul>
     </>
-} export default FrangMent
+} export default FragMent
